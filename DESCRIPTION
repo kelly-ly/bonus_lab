@@ -1,0 +1,15 @@
+Package: bonusLab
+Type: Package
+Title: assignment
+Version: 1.0
+Date: 2019-10-20
+Authors@R: c(person("Zuxiang", "Li", email = "zuxli371@student.liu.se", role = c("aut", "cre")),
+          person("Ying", "Luo", email = "yinlu879@student.liu.se", role = c("aut")))
+Description: Advanced Programming in R (LAB6), build by group 11.
+License: GPL (>= 2)
+RoxygenNote: 6.1.1
+Encoding: UTF-8
+Depends: R (>= 3.5.0)
+Suggests: testthat (>= 2.1.0), knitr, rmarkdown
+VignetteBuilder: knitr
+Imports: MASS
