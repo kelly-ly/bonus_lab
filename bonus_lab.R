@@ -27,7 +27,7 @@ ridgereg <- function(formula, data, lambda){
   
   
   b_ridge <- solve(t(X) %*% X + (lambda * diag(dim(X)[2])), t(X) %*% y)
-  return(b_ridge)
+  return(t(b_ridge))
 }
 
 ridgereg(Petal.Length~Species, data = iris, lambda = 1)
